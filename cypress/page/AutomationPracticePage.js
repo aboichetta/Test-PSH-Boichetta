@@ -6,6 +6,7 @@ export default class AutomationPracticePage {
     coursePriceColumn = "[name='courses'] > tbody > tr > :nth-child(3)"
     employeeAmountColumn = '.tableFixHead > #product > tbody > tr >:nth-child(4)'
     totalAmountCollectedLabel = ".totalAmount"
+    courseIframe = "#courses-iframe"
 
     constructor() {
 
@@ -39,5 +40,10 @@ export default class AutomationPracticePage {
     getTotalAmountCollectedLabel() {
 
         return cy.get(this.totalAmountCollectedLabel)
+    }
+
+    getCourseIframe() {
+
+        return cy.get(this.courseIframe)
     }
 }

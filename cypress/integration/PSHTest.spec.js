@@ -46,8 +46,8 @@ describe("PSH Automation Test Boichetta Alejandro", () => {
 
         cy.visit(Cypress.env("AutomationPracticeSite"))
         let headerArray = []
-        cy.frameLoaded("#courses-iframe")
-        cy.iframe("#courses-iframe").find(".nav-outer > .main-menu > .navbar-collapse > ul > li").each(($row, index, $rows) => { //acordate de agregar los get de los localizadores
+        cy.frameLoaded(automationPracticePage.getCourseIframe())
+        cy.iframe(automationPracticePage.getCourseIframe()).find(".nav-outer > .main-menu > .navbar-collapse > ul > li").each(($row, index, $rows) => { //acordate de agregar los get de los localizadores
             headerArray.push($row.text())
         }).then(() => {
             cy.log(headerArray.join(', '))
