@@ -1,11 +1,11 @@
 # Test PSH Boichetta Alejandro
 
-### Información respecto a la resolución de las tareas:
+### Información respecto a la resolución de las tareas:  
 
 • Utilicé **Javascript** como lenguaje, **Cypress v9.6.1** como herramienta de automatización, y **Visual Studio Code** como editor de código.  
-• Desarrollé la escritura del código mediante el **modelo page object**, de manera tal de poder acceder a la información que requiero mediante clases, minimizando el hardcodeo. El **builder Country** es utilizado para obtener la información referente a la tarea 1, mientras que el **page AutomationPractice** es utilizado a lo largo de todas las tareas, y sirve para llamar a los localizadores de los elementos del DOM. La única exepción a este caso es el header del iframe de la tarea 4, debido a que el método utilizado para interactual con dicho elemento requiere si o si su localizador como argumento.  
+• Desarrollé la escritura del código mediante el **modelo page object**, de manera tal de poder acceder a la información que requiero mediante clases, minimizando el hardcodeo. El **builder Country** es utilizado para obtener la información referente a la tarea 1, mientras que el **page AutomationPractice** es utilizado a lo largo de todas las tareas, y sirve para llamar a los localizadores de los elementos del DOM. La única exepción a este caso es el header del iframe de la tarea 4, debido a que el método utilizado para interactuar con los elementos del iframe toma exclusivamente como argumento un localizador.
 • Para la resolución de la tarea 4, utilicé la **librería Cypress iframe**.  
-• El código está escrito 100% en ingles, simulando ser un desarrollo real del puesto de trabajo en cuestión
+• El código está escrito enteramente en ingles, simulando ser un desarrollo real del puesto de trabajo.
 
 ---
 
