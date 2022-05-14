@@ -9,7 +9,7 @@
 
 ---
 
-### A continuación, algunos detalles de la resolución de cada una de las  tareas:
+### Detalles de la resolución de cada una de las  tareas:
 
 1) Utilicé el builder Country para acceder a dos datos: "Vene" y "Venezuela". Primero escribí "Vene" en el input de paises con el método type, y luego mediante ese mismo type interactué con el teclado para obtener la sugerencia "Venezuela". Finalmente, validé que el input posee el valor "Venezuela".
 
